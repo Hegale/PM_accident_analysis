@@ -1,6 +1,10 @@
+# PM_accident_analysis
+: 도로의 공간적 위험요인(정류장, 신호등, 도로폭, 지역 사고 발생 빈도 등)을 기반으로 도로 위험 지도를 생성. 이를 실제 사고 데이터와 결합하여 사고 발생률을 높이는 공간요인에 대해 분석하고, 데이터를 통합하여 도시한다.
 
+![image](https://github.com/Hegale/PM_accident_analysis/assets/92227496/6eac195c-5d3a-4b6e-8894-5f2366038c7c)
+: 최종 결과물
 
-# 전처리
+## 전처리
 
 ### build_road.ipynb
 : linestring 데이터의 '도로폭' 속성을 기반으로 buffer하여 실제 폭 도로 데이터를 파일로 반환한다.
@@ -22,38 +26,23 @@
 ### input data
 
 data
-
 ├─ road
-
 │  └─ Z_KAIS_TL_SPRD_MANAGE_11000.shp 외 3개 파일
-
 │  └─ Z_KAIS_TL_SPRD_MANAGE_2018 (테이블 정의서)
-
 ├─ traffic
-
 │  └─ 2017
-
 │  └─ 2018
-
 │  └─ 2019
-
 ├─ PM
-
-│  └─ pm4326.csv
-
+│  └─ pm4326.cs
 
 ### output data
 
 data
-
 ├─ road
-
 │  └─ buffer_road_5181.shp 외 3개 파일
-
 ├─ traffic
-
 │  └─ 총 교통량_지점별.csv
-
 │  └─ traffic_by_length
 
 ---
