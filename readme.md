@@ -41,25 +41,25 @@
 
 ### input data
 
-data
-├─ road
-│  └─ Z_KAIS_TL_SPRD_MANAGE_11000.shp 외 3개 파일
-│  └─ Z_KAIS_TL_SPRD_MANAGE_2018 (테이블 정의서)
-├─ traffic
-│  └─ 2017
-│  └─ 2018
-│  └─ 2019
-├─ PM
-│  └─ pm4326.cs
+data  
+├─ road  
+│  └─ Z_KAIS_TL_SPRD_MANAGE_11000.shp 외 3개 파일  
+│  └─ Z_KAIS_TL_SPRD_MANAGE_2018 (테이블 정의서)  
+├─ traffic  
+│  └─ 2017  
+│  └─ 2018  
+│  └─ 2019  
+├─ PM  
+│  └─ pm4326.cs  
 
 ### output data
 
-data
-├─ road
-│  └─ buffer_road_5181.shp 외 3개 파일
-├─ traffic
-│  └─ 총 교통량_지점별.csv
-│  └─ traffic_by_length
+data  
+├─ road  
+│  └─ buffer_road_5181.shp 외 3개 파일  
+├─ traffic  
+│  └─ 총 교통량_지점별.csv  
+│  └─ traffic_by_length  
 
 ---
 
