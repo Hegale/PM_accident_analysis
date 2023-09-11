@@ -4,6 +4,22 @@
 ![image](https://github.com/Hegale/PM_accident_analysis/assets/92227496/6eac195c-5d3a-4b6e-8894-5f2366038c7c)
 : 최종 결과물
 
+
+## 공간적 요인들
+- Points
+> 버스 정류장, 횡단보도, 신호등의 포인트 데이터를 기반으로 역거리 가중치 보간법(IDW)를 적용해 래스터화
+
+- LineString
+> 도로 데이터의 도로폭을 기반으로 Buffer한 폴리곤을 래스터화
+
+- Polygon
+> 용도지역의 사고발생 빈도를 기반으로 가중치를 부여하여 래스터화
+
+
+---
+
+# files
+
 ## 전처리
 
 ### build_road.ipynb
@@ -47,7 +63,7 @@ data
 
 ---
 
-# 분석
+## 분석
 
 ### build_raster.ipynb
 : 역거리 가중치 보간법을 구현하여 포인트 데이터로 래스터 생성
