@@ -15,6 +15,15 @@
 - Polygon
 > 용도지역의 사고발생 빈도를 기반으로 가중치를 부여하여 래스터화
 
+![image](https://github.com/Hegale/PM_accident_analysis/assets/92227496/9025b156-4de6-45bf-b633-4812b98302ed)
+: 각 사고 발생 공간적 요인들 시각화
+   
+![raster_result_](https://github.com/Hegale/PM_accident_analysis/assets/92227496/b07703c8-8674-4aca-b5c0-26f36e9793ea)
+: 사고 위험 래스터 지도 및 사고 발생 위치 시각화
+   
+![accident_bt](https://github.com/Hegale/PM_accident_analysis/assets/92227496/4882275e-7a57-4404-bdb8-ccb20ffa2a99)
+: 실제 사고 발생 포인트에서 위험도 지도가 어떤 값을 갖는지 나타냄.   
+> 실제 사고 포인트의 위험지수는 7 주변에 가장 밀집되었으며, 그 외에서는 낮은 연관성을 보였으나 가장 낮은 위험도 주변에 사고지점이 몰리는 양상을 보임. PM 사고의 다수가 운전미숙 및 운전자 부주의로 일어나는 만큼 공간 자체의 위험지수와 실제 사고 발생률이 크게 일치하지는 않을 것이라 예상되었으나, 생각 이상이었음.
 
 ---
 
